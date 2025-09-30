@@ -2,9 +2,9 @@
 
 ---
 
-### 🦀 Using Multiple `.rs` Files in Rust   
+###  Using Multiple `.rs` Files in Rust   
 
-### 📁 1. Project Structure
+###  1. Project Structure
 Assuming you already have a `main.rs` inside `src/`, here's how your folder might look:
 
 ```
@@ -27,7 +27,7 @@ src/
 
 ---
 
-### 📌 2. Declare Modules in `main.rs`
+###  2. Declare Modules in `main.rs`
 
 To use `foo.rs` and `bar.rs`, declare them as modules:
 
@@ -43,7 +43,7 @@ fn main() {
 
 ---
 
-### 🧩 3. Define Functions in Each File
+###  3. Define Functions in Each File
 
 #### `foo.rs`
 ```rust
@@ -62,7 +62,7 @@ pub fn add(a: i32, b: i32) -> i32 {
 
 ---
 
-### 📦 4. If Using Subfolders (e.g. `utils`)
+###  4. If Using Subfolders (e.g. `utils`)
 
 #### In `main.rs`:
 ```rust
@@ -97,7 +97,7 @@ pub fn print_message() {
 
 ---
 
-### 🚀 5. Run Your Project
+###  5. Run Your Project
 
 Just run:
 
@@ -106,3 +106,4 @@ cargo run
 ```
 
 Rust will compile all the modules and execute `main.rs`.
+
