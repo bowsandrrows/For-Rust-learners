@@ -1,3 +1,8 @@
+Rust match cheat-sheet, designed for clarity, speed, and sanity.
+
+
+---
+
 #  Rust Syntax Cheat Sheet for Beginners  
 ### With Explanations & Examples
 
